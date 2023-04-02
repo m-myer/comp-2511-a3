@@ -1,0 +1,74 @@
+:root {
+    --main-bg-color: #2D2D34;
+    --secondary-bg-color: #BDA7B5;
+    --main-font-color: #F2F3F4;
+    --secondary-font-color: black;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    display: grid;
+    grid-template-rows: 1fr 8fr 0.5fr;
+    height: 100%;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github-info {
+    display: flex
+}
+
+.flex-all-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing-header {
+    grid-row: 1;
+}
+
+#landing-content {
+    display: grid;
+    grid-row: 2;
+    grid-template-rows: 3fr 2fr;
+    height: 100%;
+}
+
+#welcome-message {
+    grid-row: 1;
+    padding: 10px;
+}
+
+#landing-nav {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-font-color);
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 10px;
+
+}
+
+#landing-footer {
+    grid-row: 3;
+    max-height: 100px;
+    padding: 10px;
+}
