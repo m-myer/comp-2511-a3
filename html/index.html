@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/landingStyles.css">
     <title>Landing</title>
 </head>
 <body>
-    <header>
+    <header id="landing-header" class="header">
+        <div class="headshot-div">
+            <img src="../images/my_face.png" title="That's me!" alt="a headshot of me" class="headshot">
+        </div>
         <h1>Some Heading</h1>
     </header>
 
     <main>
-        <section>
-            <div>Welcome Message</div>
-            <nav>
-                <div>Experience</div>
-                <div>Projects</div>
-                <div>Hobbies</div>
+        <section id="landing-content" class="main-section">
+            <div id="welcome-message">
+                Welcome Message
+            </div>
+            <nav id="landing-nav" class="nav-menu">
+                <div class="flex-all-centered">Experience</div>
+                <div class="flex-all-centered">Projects</div>
+                <div class="flex-all-centered">Hobbies</div>
             </nav>
         </section>
     </main>
     
-    <footer>
-        <div>Some Footer</div>
+    <footer id="landing-footer" class="flex-all-centered">
+        <div class="flex-all-centered">
+            <img src="../images/GithubIcon.png" title="Github" alt="the github logo" class="socials-icon">
+            <a href="https://github.com/m-myer" target="_blank">github.com/m-myer</a>
+        </div>
     </footer>
 </body>
 </html>
