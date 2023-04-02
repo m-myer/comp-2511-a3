@@ -6,53 +6,6 @@
     --secondary-font-color: black;
 }
 
-html {
-    height: 100%;
-}
-
-body {
-    background-color: var(--main-bg-color);
-    color: var(--main-font-color);
-    display: grid;
-    grid-template-rows: 1fr 8fr 0.5fr;
-    height: 100%;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-    a:link, a:visited {
-        color: var(--accent-color);
-    }
-
-.header {
-    display: grid;
-    grid-template-columns: 1fr 3fr 3fr 3fr;
-    border-bottom: 5px solid #C9b5C5;
-}
-
-.headshot-div {
-    grid-column: 1;
-    margin-left: 10px;
-}
-
-.address-info {
-    grid-column: 2;
-}
-
-.email-info {
-    grid-column: 3;
-}
-
-.phone-info {
-    grid-column: 4;
-}
-
-.contact-icon, .socials-icon {
-    margin-right: 10px;
-}
 
 .landing-button {
     background: none;
@@ -75,15 +28,7 @@ a {
         border-color: var(--accent-color);
     }
 
-.github-info {
-    display: flex
-}
 
-.flex-all-centered {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
 #landing-header {
