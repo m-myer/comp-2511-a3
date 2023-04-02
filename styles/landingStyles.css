@@ -91,9 +91,6 @@ a {
     justify-content: center;
 }
 
-.secondary-color {
-    color: var(--secondary-bg-color);
-}
 
 #landing-header {
     grid-row: 1;
