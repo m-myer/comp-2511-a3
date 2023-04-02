@@ -19,6 +19,14 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+    a:link, a:visited {
+        color: var(--accent-color);
+    }
+
 .header {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr 3fr;
@@ -42,7 +50,7 @@ body {
     grid-column: 4;
 }
 
-.contact-icon {
+.contact-icon, .socials-icon {
     margin-right: 10px;
 }
 
@@ -54,6 +62,7 @@ body {
 
 .landing-button {
     background: none;
+    text-align: center;
     margin: auto;
     padding: 15px;
     border-radius: 10px;
@@ -62,6 +71,10 @@ body {
     min-width: 100px;
     transition: 0.25s;
 }
+
+    .landing-button:link, .landing-button:visited {
+        color: var(--main-bg-color);
+    }
 
     .landing-button:hover, .landing-button:focus {
         box-shadow: inset 0 0 0 2em var(--accent-color), 0px 0px 10px 4px var(--main-bg-color);
@@ -100,7 +113,6 @@ body {
 }
 
 #landing-heading {
-    color: var(--secondary-bg-color);
     font-size: 4rem;
 }
 
