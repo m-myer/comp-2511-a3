@@ -29,15 +29,9 @@
     }
 
 
-
-
-#landing-header {
-    grid-row: 1;
-}
-
 #landing-content {
-    display: grid;
     grid-row: 2;
+    display: grid;
     grid-template-rows: 3fr 2fr;
     height: 100%;
 }
@@ -71,4 +65,21 @@
     margin: 0;
     padding: 10px;
     width: 75%;
+}
+
+@media screen and (max-width: 580px) {
+
+    #landing-heading {
+        font-size: 2.5rem;
+    }
+    
+    #landing-intro {
+        font-size: 1.25rem;
+    }
+
+    #landing-nav {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 10px;
+    }
 }
