@@ -54,12 +54,6 @@ a {
     margin-right: 10px;
 }
 
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .landing-button {
     background: none;
     text-align: center;
@@ -132,10 +126,4 @@ a {
     margin: 0;
     padding: 10px;
     width: 75%;
-}
-
-#landing-footer {
-    grid-row: 3;
-    max-height: 100px;
-    padding: 10px;
 }
