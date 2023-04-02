@@ -16,16 +16,25 @@
             <img src="../images/my_face.png" title="That's me!" alt="a headshot of me" class="headshot">
         </div>
         <div class="address-info flex-all-centered">
-            <img src="../images/AddressIcon2.png" alt="small icon signifying address information" class="contact-icon">
-            <p>Calgary, AB</p>
+            <picture class="contact-icon">
+                <source srcset="../images/AddressIconXsmall.png" media="(max-width:590px)">
+                <img srcset="../images/AddressIcon2.png" alt="">
+            </picture>
+            <p class="contact-desc">Calgary, AB</p>
         </div>
         <div class="email-info flex-all-centered">
-            <img src="../images/EmailIcon2.png" alt="small icon signifying email information" class="contact-icon">
-            <p>m-myer@live.com</p>
+            <picture class="contact-icon">
+                <source srcset="../images/EmailIconXsmall.png" media="(max-width:590px)">
+                <img srcset="../images/EmailIcon2.png" alt="">
+            </picture>
+            <p class="contact-desc">m-myer@live.com</p>
         </div>
         <div class="phone-info flex-all-centered">
-            <img src="../images/PhoneIcon2.png" alt="small icon signifying phone information" class="contact-icon">
-            <p>403-555-5555</p>
+            <picture class="contact-icon">
+                <source srcset="../images/PhoneIconXsmall.png" media="(max-width:590px)">
+                <img srcset="../images/PhoneIcon2.png" alt="">
+            </picture>
+            <p class="contact-desc">403-555-5555</p>
         </div>
         </div>
     </header>
@@ -42,7 +51,7 @@
                 </div>
             </div>
             <div id="nav-div" class="flex-all-centered">
-                <nav id="landing-nav" class="nav-menu">
+                <nav id="landing-nav">
                     <a href="./experience.html" target="_blank" class="landing-button">Experience</a>
                     <a href="./projects.html" target="_blank" class="landing-button">Projects</a>
                     <a href="./hobbies.html" target="_blank" class="landing-button">Hobbies</a>
