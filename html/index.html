@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,58 @@
     <link rel="stylesheet" href="../styles/landingStyles.css">
     <title>Landing</title>
 </head>
+
 <body>
     <header id="landing-header" class="header">
         <div class="headshot-div">
             <img src="../images/my_face.png" title="That's me!" alt="a headshot of me" class="headshot">
         </div>
-        <h1>Some Heading</h1>
+        <div class="address-info flex-all-centered">
+            <img src="../images/AddressIcon2.png" alt="small icon signifying address information" class="contact-icon">
+            <p>Calgary, AB</p>
+        </div>
+        <div class="email-info flex-all-centered">
+            <img src="../images/EmailIcon2.png" alt="small icon signifying email information" class="contact-icon">
+            <p>m-myer@live.com</p>
+        </div>
+        <div class="phone-info flex-all-centered">
+            <img src="../images/PhoneIcon2.png" alt="small icon signifying phone information" class="contact-icon">
+            <p>403-555-5555</p>
+        </div>
+        </div>
     </header>
 
     <main>
         <section id="landing-content" class="main-section">
-            <div id="welcome-message">
-                Welcome Message
+            <div id="welcome-message" class="flex-all-centered">
+                <div>
+                    <h1 id="landing-heading">Hey There! Welcome to my portofolio.</h1>
+                    <p id="landing-intro">My name is Michael Myer and I am a 3rd year Computer Science student at Mount Royal University. 
+                        Please explore some of my professional and educational experience, computing related projects, as well as some my personal 
+                        side interests.
+                    </p>
+                </div>
             </div>
-            <nav id="landing-nav" class="nav-menu">
-                <div class="flex-all-centered">Experience</div>
-                <div class="flex-all-centered">Projects</div>
-                <div class="flex-all-centered">Hobbies</div>
-            </nav>
+            <div id="nav-div" class="flex-all-centered">
+                <nav id="landing-nav" class="nav-menu">
+                    <button class="landing-button">Experience</button>
+                    <button class="landing-button">Projects</button>
+                    <button class="landing-button">Hobbies</button>
+                </nav>
+            </div>
         </section>
     </main>
-    
-    <footer id="landing-footer" class="flex-all-centered">
+
+    <footer id="landing-footer" class="footer">
         <div class="flex-all-centered">
-            <img src="../images/GithubIcon.png" title="Github" alt="the github logo" class="socials-icon">
-            <a href="https://github.com/m-myer" target="_blank">github.com/m-myer</a>
+            <img src="../images/GithubIcon.png" alt="small icon ssignifying github info" class="socials-icon">
+            <a href="https://github.com/m-myer" target="_blank">m-myer</a>
+        </div>
+        <div class="flex-all-centered">
+            <img src="../images/LinkedInIcon.png" alt="small icon signifying linkedin info" class="socials-icon">
+            <a href="https://www.linkedin.com/in/michael-myer-55719b240/" target="_blank">michael-myer-55719b240</a>
         </div>
     </footer>
 </body>
+
 </html>
