@@ -1,7 +1,8 @@
 :root {
     --main-bg-color: #2D2D34;
-    --secondary-bg-color: #BDA7B5;
+    --secondary-bg-color: #C9b5C5;
     --main-font-color: #F2F3F4;
+    --accent-color: #F2F3F4;
     --secondary-font-color: black;
 }
 
@@ -18,17 +19,54 @@ body {
     margin: 0;
 }
 
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr;
+    border-bottom: 5px solid #C9b5C5;
+}
+
+.headshot-div {
+    grid-column: 1;
+    margin-left: 10px;
+}
+
+.address-info {
+    grid-column: 2;
+}
+
+.email-info {
+    grid-column: 3;
+}
+
+.phone-info {
+    grid-column: 4;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
 .footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .landing-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: none;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid var(--main-bg-color);
+    width: 40%; 
+    min-width: 100px;
+    transition: 0.25s;
 }
+
+    .landing-button:hover, .landing-button:focus {
+        box-shadow: inset 0 0 0 2em var(--accent-color), 0px 0px 10px 4px var(--main-bg-color);
+        border-color: var(--accent-color);
+    }
 
 .github-info {
     display: flex
@@ -38,6 +76,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.secondary-color {
+    color: var(--secondary-bg-color);
 }
 
 #landing-header {
@@ -54,17 +96,33 @@ body {
 #welcome-message {
     grid-row: 1;
     padding: 10px;
+    text-align: center;
+}
+
+#landing-heading {
+    color: var(--secondary-bg-color);
+    font-size: 4rem;
+}
+
+#landing-intro {
+    text-align: center;
+    font-size: 1.75rem;
+    margin: auto;
+    width: 60%;
+}
+
+#nav-div {
+    background-color: var(--secondary-bg-color);
 }
 
 #landing-nav {
-    background-color: var(--secondary-bg-color);
     color: var(--secondary-font-color);
     grid-row: 2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0;
     padding: 10px;
-
+    width: 75%;
 }
 
 #landing-footer {
