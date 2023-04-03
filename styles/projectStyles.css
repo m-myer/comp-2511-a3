@@ -1,0 +1,5 @@
+#proj-main-content {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
