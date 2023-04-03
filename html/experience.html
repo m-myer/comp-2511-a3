@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/generalStyles.css">
     <link rel="stylesheet" href="../styles/contentStyles.css">
+    <link rel="stylesheet" href="../styles/experienceStyles.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,29 +15,98 @@
             <img src="../images/my_face.png" title="That's me!" alt="a headshot of me" class="headshot">
         </div>
         <div class="address-info flex-all-centered">
-            <img src="../images/AddressIcon2.png" alt="small icon signifying address information" class="contact-icon">
-            <p>Calgary, AB</p>
+            <picture class="contact-icon">
+                <source srcset="../images/AddressIconXsmall.png" media="(max-width:590px)">
+                <img srcset="../images/AddressIcon2.png" alt="">
+            </picture>
+            <p class="contact-desc">Calgary, AB</p>
         </div>
         <div class="email-info flex-all-centered">
-            <img src="../images/EmailIcon2.png" alt="small icon signifying email information" class="contact-icon">
-            <p>m-myer@live.com</p>
+            <picture class="contact-icon">
+                <source srcset="../images/EmailIconXsmall.png" media="(max-width:590px)">
+                <img srcset="../images/EmailIcon2.png" alt="">
+            </picture>
+            <p class="contact-desc">m-myer@live.com</p>
         </div>
         <div class="phone-info flex-all-centered">
-            <img src="../images/PhoneIcon2.png" alt="small icon signifying phone information" class="contact-icon">
-            <p>403-555-5555</p>
+            <picture class="contact-icon">
+                <source srcset="../images/PhoneIconXsmall.png" media="(max-width:590px)">
+                <img srcset="../images/PhoneIcon2.png" alt="">
+            </picture>
+            <p class="contact-desc">403-555-5555</p>
         </div>
         </div>
     </header>
 
     <main>
-        <section class="main-content">
-            <h1>EXPERIENCE</h1>
+        <section id="exp-main-content" class="main-content">
+            <div id="ed-exp">
+                <h1>Education</h1>
+                <div id="schools-list">
+                    <div class="school-info">
+                        <div>
+                            <h2>Mount Royal University</h2>
+                            <div class="degree-info">
+                                <h3>Bachelor of Science</h3>
+                                <p>Major in Computer Science <br>
+                                Current GPA: 3.6</p>
+                            </div>
+                        </div>
+                        <p class="date-info">2020 - Present</p>
+                    </div>
+                    <div class="school-info">
+                        <div>
+                            <h2>Southern Alberta Institute of Technology</h2>
+                            <div class="degree-info">
+                                <h3>Information Technology Diploma with Honours</h3>
+                                <p>Major in Network Systems <br>
+                                GPA: 4.0</p>
+                            </div>
+                        </div>
+                        <p class="date-info">2017</p>
+                    </div>
+                </div>
+            </div>
+            <div id="pro-exp">
+                <h1>Professional Experience</h1>
+                <div id="jobs-list">
+                    <div class="job-info">
+                        <div>
+                            <h2>Mount Royal University</h2>
+                            <div class="position-info">
+                                <h3>Bachelor of Science</h3>
+                                <p>Major in Computer Science <br>
+                                Current GPA: 3.6</p>
+                            </div>
+                        </div>
+                        <p class="date-info">2020 - Present</p>
+                    </div>
+                    <div class="job-info">
+                        <div>
+                            <h2>Southern Alberta Institute of Technology</h2>
+                            <div class="position-info">
+                                <h3>Information Technology Diploma with Honours</h3>
+                                <p>Major in Network Systems <br>
+                                GPA: 4.0</p>
+                            </div>
+                        </div>
+                        <p class="date-info">2017</p>
+                    </div>
+                </div>
+
+            </div>
         </section>
         <nav class="nav-menu">
-            <h2>NAVIGATION</h2>
+            <h2>Navigation</h2>
+            <hr>
+            <a href="./index.html">Home</a>
+            <hr>
+            <a href="./projects.html">Projects</a>
+            <hr>
+            <a href="./hobbies.html">Hobbies</a>
         </nav>
     </main>
-    
+
     <footer class="footer">
         <div class="flex-all-centered">
             <img src="../images/GithubIcon.png" alt="small icon ssignifying github info" class="socials-icon">
