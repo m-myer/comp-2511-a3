@@ -5,16 +5,20 @@ main {
     background-color: var(--accent-color);
 }
 
-.nav-menu {
+.nav-container {
     grid-column: 1;
     grid-row: 1;
+    background-color: var(--main-bg-color);
+    border-right: 5px solid var(--secondary-bg-color);
+    padding-bottom: 150px;
+}
+
+.nav-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: var(--main-bg-color);
-    border-right: 5px solid var(--secondary-bg-color);
     text-align: center;
-    padding-bottom: 150px;
+    height: 600px;
 }
 
     .nav-menu a:hover {
@@ -34,12 +38,15 @@ main {
         grid-template-rows: 1fr 7fr;
     }
 
-    .nav-menu {
+    .nav-container {
         border-right: none;
         border-bottom: 5px solid var(--secondary-bg-color);
+        padding-bottom: 0px;
+    }
+
+    .nav-menu {
         flex-direction: row;
         align-items: center;
-        padding-bottom: 0px;
         max-height: 150px;
     }
 
@@ -61,12 +68,15 @@ main {
         display: none;
     }
 
-    .nav-menu {
+    .nav-container {
         border-right: none;
         border-bottom: 5px solid var(--secondary-bg-color);
+        padding-bottom: 0px;
+    }
+
+    .nav-menu {
         flex-direction: row;
         align-items: center;
-        padding-bottom: 0px;
         max-height: 150px;
     }
 
