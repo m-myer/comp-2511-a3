@@ -83,3 +83,14 @@
         grid-row-gap: 10px;
     }
 }
+
+@media screen and (min-width:581px) and (max-width:790px){
+
+    #landing-heading {
+        font-size: 3.25rem;
+    }
+
+    #landing-intro {
+        font-size: 1.5rem;
+    }
+}
