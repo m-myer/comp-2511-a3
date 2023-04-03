@@ -31,7 +31,7 @@ main {
 
     main {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 5fr;
+        grid-template-rows: 1fr 7fr;
     }
 
     .nav-menu {
@@ -54,7 +54,7 @@ main {
 
     main {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 5fr;
+        grid-template-rows: 1fr 7fr;
     }
 
     hr {
