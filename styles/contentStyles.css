@@ -17,6 +17,10 @@ main {
     padding-bottom: 150px;
 }
 
+    .nav-menu a:hover {
+        text-shadow: 0px 0px 6px var(--accent-color);
+    }
+
 .main-content {
     grid-column: 2;
     grid-row: 1;
@@ -28,6 +32,33 @@ main {
     main {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 5fr;
+    }
+
+    .nav-menu {
+        border-right: none;
+        border-bottom: 5px solid var(--secondary-bg-color);
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0px;
+        max-height: 150px;
+    }
+
+    .main-content {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+}
+
+@media screen and (min-width:581px) and (max-width:790px){
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr;
+    }
+
+    hr {
+        display: none;
     }
 
     .nav-menu {

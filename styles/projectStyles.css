@@ -1,5 +1,17 @@
 #proj-main-content {
     display: grid;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 4fr;
 }
 
+#projects-heading {
+    grid-row: 1;
+    background-color: var(--secondary-bg-color);
+    text-align: center;
+    margin: 5px;
+}
+
+#projects-grid {
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}

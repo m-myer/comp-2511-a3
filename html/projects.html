@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/generalStyles.css">
     <link rel="stylesheet" href="../styles/contentStyles.css">
+    <link rel="stylesheet" href="../styles/projectStyles.css">
     <title>Document</title>
 </head>
 <body>
@@ -40,8 +41,36 @@
 
     <main>
         <section id="proj-main-content" class="main-content">
-            <div>
+            <div id="projects-heading">
                 <h1>Projects</h1>
+                <p>Here are some of the projects that I have worked on throughout my degree so far. <br>
+                   Click the images to see the associated github or hosted application.</p> 
+            </div>
+            <div id="projects-grid">
+                <div class="flex-all-centered">
+                    <a href="https://github.com/m-myer/alpha-bubbles" target="_blank">
+                        <picture class="project-screenshot">
+                            <source srcset="../images/alphaBubblesSmall.png" media="(max-width:590px)">
+                            <img srcset="../images/alphaBubblesMedium.png" title="AlphaBubbles" alt="A screenshot of the 'AlphaBubbles' game I created as a project in COMP 2659">
+                        </picture>
+                    </a>
+                </div>
+                <div class="flex-all-centered">
+                    <a href="https://github.com/m-myer/kalimba" target="_blank">
+                        <picture class="project-screenshot">
+                            <source srcset="../images/kalimbaSmall.png" media="(max-width:590px)">
+                            <img srcset="../images/kalimbaMedium.png" title="Kalimba" alt="A screenshot of the 'Kalimba' website I created">
+                        </picture>
+                    </a>
+                </div>
+                <div class="flex-all-centered">
+                    <a href="https://cougarstats.shinyapps.io/CougarStats/" target="_blank">
+                        <picture class="project-screenshot">
+                            <source srcset="../images/cougarStatsSmall.png" media="(max-width:590px)">
+                            <img srcset="../images/cougarStatsMedium.png" title="CougarStats" alt="A screenshot of the 'CourgarStats' R shiny app">
+                        </picture>
+                    </a>
+                </div>
             </div>
         </section>
         <nav class="nav-menu">
@@ -49,7 +78,7 @@
             <hr>
             <a href="./index.html">Home</a>
             <hr>
-            <a href="./projects.html">Projects</a>
+            <a href="./experience.html">Experience</a>
             <hr>
             <a href="./hobbies.html">Hobbies</a>
         </nav>

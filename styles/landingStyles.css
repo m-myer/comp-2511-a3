@@ -18,7 +18,7 @@
     min-width: 100px;
     transition: 0.25s;
 }
-
+/* shoutout to https://webdeasy.de/en/top-css-buttons-en/ for showing me how to animate a button */
     .landing-button:link, .landing-button:visited {
         color: var(--main-bg-color);
     }
@@ -50,6 +50,7 @@
     text-align: center;
     font-size: 1.75rem;
     margin: auto;
+    padding-bottom: 20px;
     width: 60%;
 }
 
