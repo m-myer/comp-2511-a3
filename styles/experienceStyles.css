@@ -1,0 +1,51 @@
+.school-info, .job-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-info {
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.degree-info, .position-info {
+    padding-left: 10px;
+    border-left: solid 2px var(--secondary-bg-color);
+}
+
+    .degree-info h3 {
+        margin-bottom: 0;
+    }
+
+    .degree-info p {
+        margin-top: 0;
+    }
+
+#exp-main-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#ed-exp {
+    grid-row: 1;
+    margin: 10px 10px 5px 10px;
+}
+
+#pro-exp {
+    grid-row: 2;
+    margin: 5px 10px 10px 10px;
+}
+
+#ed-exp h1,
+#pro-exp h1 {
+    background-color: var(--secondary-bg-color);
+    margin: 0;
+    padding: 20px;
+}
+
+#schools-list, #jobs-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
