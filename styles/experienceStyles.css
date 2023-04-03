@@ -4,6 +4,7 @@
 }
 
 .date-info {
+    text-align: right;
     margin-left: 5px;
     padding-top: 10px;
     padding-right: 25px;
@@ -14,11 +15,11 @@
     border-left: solid 2px var(--secondary-bg-color);
 }
 
-    .degree-info h3 {
+    .degree-info h3, .position-info h3 {
         margin-bottom: 0;
     }
 
-    .degree-info p {
+    .degree-info p, .position-info p {
         margin-top: 0;
     }
 
